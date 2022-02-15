@@ -7,9 +7,9 @@ version: 2
 
 # Personal info
 name: Alberta Jane 
-title: 
+title: Alberta Jane 
 email: ajane@ufl.edu
-website: https://magitz.github.io/modern-resume-alberta-jane/
+website: https://bit.ly/alberta-jane
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -46,45 +46,50 @@ github_username:  magitz
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/Alberta.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  An amazing Gator with extensive experience looking for a job in the technology industry
 
 content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Bachelor of Science in Industrial and Systems Engineering   May 2020
-        quote: > 
-          University of Florida, GPA GPA: 3.83/4.0 
+        title: University of Florida
         description: | # this will include new lines to allow paragraphs
-          Study Abroad: Florence, Italy
+          Bachelor of Science in Industrial and Systems Engineering
+
+          **Graduation:** May 2020
+
+          **GPA:** 3.83/4.0
+          
+          **Study Abroad:** Florence, Italy
 
   - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Walk Disney World, Lake Buena Vista, FL
-        sub_title: Industrial Engineering Professional Intern
+        title: Walk Disney World 
+        sub_title: Lake Buena Vista, FL
+        quote: Industrial Engineering Professional Intern
         caption: Aug 2019- Dec 2019
         description: | # this will include new lines to allow paragraphs
           *	Conducted data analysis and statistical modeling to provide planning, capacity utilization support, and efficiency solutions for the Resort and Transportation Operations
           *	Led a business analysis project that identified process improvements to annually save $2.8 Million in transportation operational costs when implemented
           *	Designed and Programmed 3 apps in Filemaker Pro to support operations during the opening of the Disney Skyliner and collected data through field studies to provide efficiency recommendations
       - layout: left
-        title: Supply Chain Co-op, GE Appliances, a Haier Company, Louisville, KY
-        sub_title: Customer Fulfillment
+        title: Supply Chain Co-op, GE Appliances, a Haier Company 
+        sub_title: Louisville, KY
+        quote: Customer Fulfillment
         caption: May 2019-Aug 2019
         description: | # this will include new lines to allow paragraphs
           *	Monitored inventory levels to ensure multi-family accounts received their orders on time. When needed worked with Warehousing and Transportation Teams to implement solutions to prevent backorders
           *	Analyzed allocation issues within the 9 distribution centers and recommend alternative allocation strategies for specific situations to management as needed
           *	Created tools using VBA to automatically generate reports detailing key fulfillment metrics and shared the metrics weekly with my accounts   
       - layout: left
-        title: Supply Chain Co-op, GE Appliances, a Haier Company, Louisville, KY
-        sub_title: Materials Planner 
+        title: Supply Chain Co-op, GE Appliances, a Haier Company
+        sub_title: Louisville, KY
+        quote: Materials Planner 
         caption: Aug 2018-Dec 2018
         description: | # this will include new lines to allow paragraphs
           *	Participated in a two-day Kaizen event to implement preventative maintenance for Braider Machines
@@ -110,21 +115,17 @@ content:
           * Responsible for arranging and managing functions that promote athletics, such as 2 intramural teams with 20 members and sporting events for our entire club
 
   - title: Honors # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: University of Florida Deans List 
-        caption: Spring 2016 - Present
+    layout: text # Type of content section (list/text)
+    content: | # this will include new lines to allow paragraphs 
+      **University of Florida Deans List**, Spring 2016 - Present
 
   - title: Computer Skills # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-        - layout: left
-          description: Proficient in VBA, Microsoft Office, Oracle, VB.NET, RStudio, Arena, SolidWorks and Filemaker Pro 
+    layout: text # Type of content section (list/text)
+    content: Proficient in VBA, Microsoft Office, Oracle, VB.NET, RStudio, Arena, SolidWorks and Filemaker Pro 
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: Contact me for refernces
 
 # Build settings
 remote_theme: sproogen/resume-theme
