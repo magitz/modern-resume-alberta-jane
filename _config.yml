@@ -74,7 +74,7 @@ content:
           *	Conducted data analysis and statistical modeling to provide planning, capacity utilization support, and efficiency solutions for the Resort and Transportation Operations
           *	Led a business analysis project that identified process improvements to annually save $2.8 Million in transportation operational costs when implemented
           *	Designed and Programmed 3 apps in Filemaker Pro to support operations during the opening of the Disney Skyliner and collected data through field studies to provide efficiency recommendations
-
+      - layout: left
         title: Supply Chain Co-op, GE Appliances, a Haier Company, Louisville, KY
         sub_title: Customer Fulfillment
         caption: May 2019-Aug 2019
@@ -82,11 +82,11 @@ content:
           *	Monitored inventory levels to ensure multi-family accounts received their orders on time. When needed worked with Warehousing and Transportation Teams to implement solutions to prevent backorders
           *	Analyzed allocation issues within the 9 distribution centers and recommend alternative allocation strategies for specific situations to management as needed
           *	Created tools using VBA to automatically generate reports detailing key fulfillment metrics and shared the metrics weekly with my accounts   
-
+      - layout: left
         title: Supply Chain Co-op, GE Appliances, a Haier Company, Louisville, KY
         sub_title: Materials Planner 
         caption: Aug 2018-Dec 2018
-        description:
+        description: | # this will include new lines to allow paragraphs
           *	Participated in a two-day Kaizen event to implement preventative maintenance for Braider Machines
           *	Wrote a Scrap Macro using VBA which sorted through 100,000 lines of raw data, to find the top 15 reasons for the largest scrap reports
           *	Implemented a color sensor to increase detection capability of splices and defects in wires. Used SolidWorks to mount the color sensor to the machine
@@ -99,29 +99,28 @@ content:
         caption: Aug 2015 - Present
         description: | # this will include new lines to allow paragraphs
           * Attended swim practice four times per week, weekend travel to compete against other university clubs, and helped the team place 2nd at the National Championships for 2015 and 2016 
-
+      - layout: left
         title: UF Institute of Industrial and System Engineering
         caption: Jan 2016 - Present
-
+      - layout: left
         title: ExercIISE Committee
         caption: Aug 2017 - May 2018
         description: | # this will include new lines to allow paragraphs
           * Utilized social media and Google Apps to create event pages to increase participation of members
-          * Responsible for arranging and managing functions that promote athletics, such as 2 intramural teams with 20 members 
-        and sporting events for our entire club
+          * Responsible for arranging and managing functions that promote athletics, such as 2 intramural teams with 20 members and sporting events for our entire club
 
-- title: Honors # Title for the section
+  - title: Honors # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: University of Florida Deans List 
         caption: Spring 2016 - Present
 
-- title: Computer Skills # Title for the section
+  - title: Computer Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        description: Proficient in VBA, Microsoft Office, Oracle, VB.NET, RStudio, Arena, SolidWorks and Filemaker Pro 
+        - layout: left
+          description: Proficient in VBA, Microsoft Office, Oracle, VB.NET, RStudio, Arena, SolidWorks and Filemaker Pro 
 
 # Footer
 footer_show_references: true
